@@ -1,0 +1,8 @@
+{
+  "name": "ACI DNS Health Check",
+  "description": "Monitors DNS resolution in ACI to detect intermittent DNS failures affecting Azure services",
+  "version": "1.0.0",
+  "audience": ["vendor"],
+  "readme_url": "",
+  "changelog_url": ""
+}

@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  dns_check_dev:
+    container_name: aci_dns_check_dev
+    build:
+      context: .
+    working_dir: /extension
+    command: cextrun -d
+    volumes:
+      - .:/extension
+    env_file:
+      - .dns_check_dev.env
